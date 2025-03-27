@@ -26,11 +26,11 @@ const addSubmitListener = () => {
     event.preventDefault();
     
     const newRamen = {
-      name: event.target["name"].value,
-      restaurant: event.target["restaurant"].value,
-      image: event.target["image"].value,
-      rating: event.target["rating"].value,
-      comment: event.target["comment"].value,
+      name: event.target["new-name"].value,
+      restaurant: event.target["new-restaurant"].value,
+      image: event.target["new-image"].value,
+      rating: event.target["new-rating"].value,
+      comment: event.target["new-comment"].value,
     };
 
     const img = document.createElement("img");
